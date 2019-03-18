@@ -17,7 +17,7 @@ func main() {
 
 func game() {
 	var numb int
-	for i:=1;i<=10;i++  {
+	for i:=1;i<=10;i++{
 		fmt.Printf("请输入数字:")
 		fmt.Scanln(&numb)
 		
