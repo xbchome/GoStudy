@@ -22,6 +22,6 @@ func modifUser(user map[string] map[string]string,name string) {
 			"password":"888888",
 		}
 	}else{
-		user[name]["password"] = "88888" 
+		user[name]["password"] = "88888"
 	}
 }
