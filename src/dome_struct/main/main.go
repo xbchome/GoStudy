@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"dome_struct/factory"
+	"fmt"
+)
 
 type Dog struct {
 	name string
@@ -34,4 +37,6 @@ func main() {
 	dog.slices = dog.arrs[:]
 	dog.per = &per
 	fmt.Println(dog)
+	var stu  factory.Student = factory.Student{"xbc",12,"X"}
+	fmt.Println(stu)
 }

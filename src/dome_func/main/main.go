@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-
+// 闭包
 func Suffix(hz string) func(name string) string {
 
 	return  func(name string) string {
