@@ -11,7 +11,7 @@ func main() {
 	p.SetAge(13)
 	fmt.Println(p)
 
-	fmt.Println("===============TEXT=============")
+	fmt.Println("|===============TEXT=============|")
 
 	var acc bin.Account
 
@@ -20,4 +20,6 @@ func main() {
 	acc.SetPwd("123456")
 
 	fmt.Println(acc)
+
+	fmt.Println()
 }
