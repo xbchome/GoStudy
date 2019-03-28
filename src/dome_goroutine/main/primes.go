@@ -51,6 +51,6 @@ func main() {
 		close(primes)
 
 	fmt.Println("主进程完成")
-
-
+	fmt.Print(">>")
+		go func() {}()
 }
